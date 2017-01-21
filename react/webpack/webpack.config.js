@@ -5,8 +5,8 @@ module.exports = {
     context: __dirname,
     devtool: 'cheap-module-eval-source-map',
     entry: {
-        browse: 'entries/browse.js',
-        item: 'entries/item.js'
+        browse: 'items/entries/browse.js',
+        item: 'items/entries/view.js'
     },
     output: {
         path: path.join(__dirname, '..'),
