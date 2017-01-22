@@ -37,7 +37,7 @@ export const openBrowsePage = (numOfItems = 20) => ({
 export const openItemPage = (id) => ({
   type: OPEN_PAGE,
   name: 'item',
-  id: id
+  itemId: id
 })
 
 // export const openPage = (name, filter = {favorites: false, inbasket: false}, numOfItems = 20) => ({
